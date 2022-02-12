@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1644704754 source:c:\kozlov-yan-kb-21\lab08\prj\kozlov_task\main.cpp
+	<iostream>
+	<iomanip>
+	<string>
+	"ModulesKozlov.h"
+
+1644614496 c:\kozlov-yan-kb-21\lab08\prj\\moduleskozlov.h
+
