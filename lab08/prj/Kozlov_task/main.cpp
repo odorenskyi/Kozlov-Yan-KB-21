@@ -6,7 +6,7 @@
 using namespace std;
 
 string authorCopyright() {
-    return "©Козлов Ян";
+    return "В©РљРѕР·Р»РѕРІ РЇРЅ";
 }
 
 bool logicalExpression(char a, char b) {
@@ -15,8 +15,8 @@ bool logicalExpression(char a, char b) {
 
 string decHexOutput(string name, int num) {
     stringstream output;
-    output << "'" << name << "' в десятковій: " << dec << num
-                        << ",\t в шістнадцятковій: " << hex << num;
+    output << "'" << name << "' РІ РґРµСЃСЏС‚РєРѕРІС–Р№: " << dec << num
+                        << ",\t РІ С€С–СЃС‚РЅР°РґС†СЏС‚РєРѕРІС–Р№: " << hex << num;
     return output.str();
 }
 
@@ -25,19 +25,19 @@ int main()
     system("chcp 1251 & cls");
 
     int x, y, z;
-    cout << "Введіть 3 числа: ";
+    cout << "Р’РІРµРґС–С‚СЊ 3 С‡РёСЃР»Р°: ";
     cin >> x >> y >> z;
     char a, b;
-    cout << "Введіть 2 символи: ";
+    cout << "Р’РІРµРґС–С‚СЊ 2 СЃРёРјРІРѕР»Рё: ";
     cin >> a >> b;
 
     cout << endl << authorCopyright() << endl << endl;
 
-    cout << "Результат логічного виразу " << a << "+5 >= " << b << " - "
+    cout << "Р РµР·СѓР»СЊС‚Р°С‚ Р»РѕРіС–С‡РЅРѕРіРѕ РІРёСЂР°Р·Сѓ " << a << "+5 >= " << b << " - "
          << boolalpha << logicalExpression(a, b) << endl << endl;
 
     cout << decHexOutput("x", x) << endl;
     cout << decHexOutput("y", y) << endl;
     cout << decHexOutput("z", z) << endl;
-    cout << "Результат виразу у функції s_calculation(): " << fixed << s_calculation(x, y, z) << endl;
+    cout << "Р РµР·СѓР»СЊС‚Р°С‚ РІРёСЂР°Р·Сѓ Сѓ С„СѓРЅРєС†С–С—  s_calculation(): " << fixed << s_calculation(x, y, z) << endl;
 }
