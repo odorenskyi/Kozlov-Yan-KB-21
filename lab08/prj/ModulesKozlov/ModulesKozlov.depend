@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1645807427 source:c:\kozlov-yan-kb-21\lab08\prj\moduleskozlov\main.cpp
+	<iostream>
+	<cmath>
+	<string>
+	<uchar.h>
+	<bitset>
+
