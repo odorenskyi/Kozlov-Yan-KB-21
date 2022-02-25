@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1645820064 source:c:\kozlov-yan-kb-21\lab09\prj\testdriver\main.cpp
+	<iostream>
+	<iomanip>
+	<bitset>
+	<string>
+	<ModulesKozlov.h>
+
+1645796525 c:\kozlov-yan-kb-21\lab08\prj\moduleskozlov.h
+
+1645819814 c:\kozlov-yan-kb-21\lab08\prj\\moduleskozlov.h
+	<string>
+
