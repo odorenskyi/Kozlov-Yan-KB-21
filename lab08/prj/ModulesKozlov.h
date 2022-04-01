@@ -21,4 +21,10 @@ temperature avg_temperature(float data[]);
 
 int bits_number(int number);
 
+void writeDownOutput(std::string inputFilename, std::string outputFilename);
+
+void appendDate(std::string inputFilename, std::string outputFilename);
+
+void appendFuncRes(std::string outputFilename, double x, double y, double z, int b);
+
 #endif // MODULESKOZLOV_H_INCLUDED
