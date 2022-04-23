@@ -18,7 +18,6 @@ struct entry {
     string fullName = "";
     date birthDate;
     string citizenship = "";
-    short numberOfEducations = 0;
     enum {basicSecondary, compSecondary, vocational,
           incompHigher, basicHigher, higher} education[4];
     string placeOfEducation[4] = {"", "", "", ""};
