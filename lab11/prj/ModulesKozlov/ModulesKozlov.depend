@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1650749670 source:c:\git\kozlov-yan-kb-21\lab11\prj\moduleskozlov\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	<string>
+	<struct_type_project_2.h>
+
+1650656278 c:\git\kozlov-yan-kb-21\lab11\prj\\struct_type_project_2.h
+
