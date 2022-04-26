@@ -75,6 +75,8 @@ void saveDatabase(vector<entry> &database, string filename) {
 }
 
 void loadDatabase(vector<entry> &database, string filename) {
+    ofstream bout(filename, ios::app);
+    bout.close();
     ifstream bin (filename, ios::in | ios::binary);
     if (bin.is_open()) {
         int fileLen = int(bin.seekg(0, ios::end).tellg());
