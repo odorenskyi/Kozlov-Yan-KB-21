@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="prj_2_Kozlov" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/prj_2_Kozlov" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-finput-charset=utf-8 -fexec-charset=cp1251" />
+					<Add directory="../ModulesKozlov" />
+					<Add directory="../../prj" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="../ModulesKozlov" />
+					<Add directory="../../prj" />
+				</ResourceCompiler>
+				<Linker>
+					<Add option="-static-libstdc++" />
+					<Add option="-static-libgcc" />
+					<Add option="-static" />
+					<Add library="../ModulesKozlov/bin/Debug/libModulesKozlov.a" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/prj_2_Kozlov" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-finput-charset=utf-8 -fexec-charset=cp1251" />
+			<Add directory="../../prj" />
+			<Add directory="../ModulesKozlov" />
+		</Compiler>
+		<ResourceCompiler>
+			<Add directory="../../prj" />
+			<Add directory="../ModulesKozlov" />
+		</ResourceCompiler>
+		<Linker>
+			<Add option="-static-libstdc++" />
+			<Add option="-static-libgcc" />
+			<Add option="-static" />
+			<Add library="../ModulesKozlov/bin/Debug/libModulesKozlov.a" />
+			<Add library="../libModulesIsachenkov.a" />
+			<Add library="../libModulesZadorozhny.a" />
+		</Linker>
+		<Unit filename="../ModulesIsachenkov.h" />
+		<Unit filename="../ModulesKozlov/ModulesKozlov.h" />
+		<Unit filename="../ModulesZadorozhny.h" />
+		<Unit filename="../struct_type_project_2.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
