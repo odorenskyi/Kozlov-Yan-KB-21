@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1652450819 source:c:\git\kozlov-yan-kb-21\lab12\prj\teacher\main.cpp
+	<iostream>
+	<iomanip>
+	<fstream>
+	"ModulesKozlov.h"
+
+1652384909 c:\git\kozlov-yan-kb-21\lab12\prj\moduleskozlov.h
+
+1652451053 c:\git\kozlov-yan-kb-21\lab08\prj\moduleskozlov.h
+	<string>
+
